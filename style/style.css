@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+} 
+body {
+  background-color:rgb(247, 243, 243);
+}
+
+header  {
+  background: rgb(238, 148, 148);
+  padding: 10px;
+  color: rgb(145, 22, 22);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+}
+
+main {
+  padding: 30px 50px;
+
+}
+.title  {
+  text-align: center;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.lineinput {
+  display: grid;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  border: 0px;
+  padding: 10px;
+  outline: 0;
+  background:rgb(238, 148, 148);
+  color:rgb(155, 16, 16);
+  Border-radius: 5px;
+  font-weight: Bold;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: rgb(236, 96, 96);
+  color:rgb(109, 1, 1);
+}
+
+.content {
+  margin-top: 15px;
+}
+
+table {
+  border: 1px solid rgb(109, 1, 1);
+  border-radius: 5px;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+table th {
+  background: rgb(236, 148, 148);
+  color:rgb(109, 1, 1);
+}
+
+table th td{
+   padding: 1px 5px;
+   text-align: left;
+}
+
+
+table td img {
+  width: 22px;
+
+}
+
+.center {
+   text-align: center;
+}
